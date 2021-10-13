@@ -5,18 +5,13 @@ foreach ($data as $key => $value)
         	?>
        
         <div class="templatemo_product_box">
-            	<h1><h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1><?php echo $value['book_name'] ?>  <span>(tac gia)</span></h1>
+            	<h1><?php echo $value['book_name'] ?>  <span>(tac gia)</span></h1>
    	      <img src="<?php echo BASE_URL ?>/images/book/<?php echo $value['img'] ?>" alt="image" />
                 <div class="product_info">
                 	<p>Etiam luctus. Quisque facilisis suscipit elit. Curabitur...</p>
                   <h3>$55</h3>
                     <div class="buy_now_button"><a href="subpage.html">Buy Now</a></div>
                     <div class="detail_button"><a href="detail-<?php echo chuanHoaChuoi($value['book_name']) ?>-<?php echo $value['book_id'] ?>.html">Detail</a></div>
-                        <h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
-                        <h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
-                        <h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
-                        <h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
-                        <h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
                 </div>
                 <div class="cleaner">&nbsp;</div>
             </div>

@@ -5,7 +5,7 @@ foreach ($data as $key => $value)
         	?>
        
         <div class="templatemo_product_box">
-            	<h1><?php echo $value['book_name'] ?>  <span>(tac gia)</span></h1>
+            	<h1><h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1><?php echo $value['book_name'] ?>  <span>(tac gia)</span></h1>
    	      <img src="<?php echo BASE_URL ?>/images/book/<?php echo $value['img'] ?>" alt="image" />
                 <div class="product_info">
                 	<p>Etiam luctus. Quisque facilisis suscipit elit. Curabitur...</p>

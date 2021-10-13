@@ -1,4 +1,4 @@
-
+<h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
 <?php
 foreach ($data as $key => $value) 
         {
@@ -15,7 +15,6 @@ foreach ($data as $key => $value)
                 </div>
                 <div class="cleaner">&nbsp;</div>
             </div>
-<h1>Đặng Phúc Hữu - DH51800671 - D18_TH03</h1>
         <?php
         if ($key %2==0) echo '<div class="cleaner_with_width">&nbsp;</div>';
         else echo '<div class="cleaner_with_height">&nbsp;</div>';
